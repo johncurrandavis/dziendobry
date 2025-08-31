@@ -1,0 +1,23 @@
+[build]
+  # This is where your Vite build puts the final static site
+  publish = "dist"
+
+  # Where Netlify should look for serverless functions
+  functions = "netlify/functions"
+
+  # Build command for Vite
+  command = "npm run build"
+
+[dev]
+  # Tell `netlify dev` to use Vite's dev server for the frontend
+  framework = "vite"
+  command = "npm run dev"
+  targetPort = 5173    # default Vite port
+  port = 8888          # where Netlify Dev will be available
+
+[[redirects]]
+  # Ensure client-side routing works (React Router, etc.)
+  from = "/*"
+  to = "/index.html"
+  status = 200
+

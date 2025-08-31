@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "sources": ["../../home/john/Documents/WEB_DEVELOPMENT/dziendobry_co_uk/test01/dziendobry-app-03/netlify/functions/getVerb.js"],
+  "sourceRoot": "/tmp/tmp-30210-A36t0vtor8ly",
+  "sourcesContent": ["import { promises as fs } from \"fs\";\nimport path from \"path\";\n\nexport async function handler(event) {\n\n  try {\n    const verbName = event.queryStringParameters.name;\n    if (!verbName) {\n      return { statusCode: 400, body: \"Missing verb name\" };\n    }\n\n    const filePath = path.join(process.cwd(), \"src\", \"verbs\", `${verbName}.json`);\n    const data = await fs.readFile(filePath, \"utf-8\");\n\n    return {\n      statusCode: 200,\n      headers: { \"Content-Type\": \"application/json\" },\n      body: data\n    };\n  } catch (err) {\n    return {\n      statusCode: 404,\n      body: JSON.stringify({ error: \"Verb not found\" })\n    };\n  }\n\n}\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,gBAA+B;AAC/B,kBAAiB;AAEjB,eAAsB,QAAQ,OAAO;AAEnC,MAAI;AACF,UAAM,WAAW,MAAM,sBAAsB;AAC7C,QAAI,CAAC,UAAU;AACb,aAAO,EAAE,YAAY,KAAK,MAAM,oBAAoB;AAAA,IACtD;AAEA,UAAM,WAAW,YAAAA,QAAK,KAAK,QAAQ,IAAI,GAAG,OAAO,SAAS,GAAG,QAAQ,OAAO;AAC5E,UAAM,OAAO,MAAM,UAAAC,SAAG,SAAS,UAAU,OAAO;AAEhD,WAAO;AAAA,MACL,YAAY;AAAA,MACZ,SAAS,EAAE,gBAAgB,mBAAmB;AAAA,MAC9C,MAAM;AAAA,IACR;AAAA,EACF,SAAS,KAAK;AACZ,WAAO;AAAA,MACL,YAAY;AAAA,MACZ,MAAM,KAAK,UAAU,EAAE,OAAO,iBAAiB,CAAC;AAAA,IAClD;AAAA,EACF;AAEF;",
+  "names": ["path", "fs"]
+}

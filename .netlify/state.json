@@ -1,0 +1,20 @@
+{
+	"geolocation": {
+		"data": {
+			"city": "Pudsey",
+			"country": {
+				"code": "GB",
+				"name": "United Kingdom"
+			},
+			"subdivision": {
+				"code": "ENG",
+				"name": "England"
+			},
+			"timezone": "Europe/London",
+			"latitude": 53.7972,
+			"longitude": -1.668,
+			"postalCode": "LS28"
+		},
+		"timestamp": 1756644166503
+	}
+}

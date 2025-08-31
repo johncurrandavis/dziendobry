@@ -1,0 +1,14 @@
+
+#my-flexbox {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+td {
+  padding: 2px 12px;
+}
+
+.light-text {
+  color: #666;
+}

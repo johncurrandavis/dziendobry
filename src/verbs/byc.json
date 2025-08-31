@@ -1,0 +1,207 @@
+{
+
+  "infinitive": "być",
+
+  "present_indicative": {
+
+    "singular": {
+      "first_person": "jestem",
+      "second_person": "jesteś",
+      "third_person": "jest"
+    },
+
+    "plural": {
+      "first_person": "jesteśmy",
+      "second_person": "jesteście",
+      "third_person": "są"
+    }
+  },
+
+  "past_indicative": {
+
+    "singular": {
+      "masculine": {
+        "first_person": "byłem / -(e)m był",
+        "second_person": "byłeś / -(e)ś był",
+        "third_person": "był"
+      },
+      "feminine": {
+        "first_person": "byłam / -(e)m była",
+        "second_person": "byłaś / -(e)ś była",
+        "third_person": "była"
+      },
+      "neuter": {
+        "first_person": "byłom / -(e)m było",
+        "second_person": "byłoś / -(e)ś było",
+        "third_person": "było"
+      }
+    },
+
+    "plural": {
+      "groups_that_include_men": {
+        "first_person": "byliśmy / -(e)śmy byli",
+        "second_person": "byliście / -(e)ście byli",
+        "third_person": "byli"
+      },
+      "all_others": {
+        "first_person": "byłyśmy / -(e)śmy były",
+        "second_person": "byłyście / -(e)ście były",
+        "third_person": "były"
+      }
+    }
+  },
+
+  "future_indicative": {
+
+    "singular": {
+      "first_person": "będę",
+      "second_person": "będziesz",
+      "third_person": "będzie"
+    },
+
+    "plural": {
+      "first_person": "będziemy",
+      "second_person": "będziecie",
+      "third_person": "będą"
+     }
+  },
+
+  "imperative": {
+
+    "singular": {
+      "second_person": "bądź",
+      "third_person": "niech będzie"
+    },
+
+    "plural": {
+      "first_person": "bądźmy",
+      "second_person": "bądźcie",
+      "third_person": "niech będą"
+    }
+  },
+
+  "conditional": {
+
+    "singular": {
+      "masculine": {
+        "first_person": "byłbym / bym był",
+        "second_person": "byłbyś / byś był",
+        "third_person": "byłby / by był"
+      },
+      "feminine": {
+        "first_person": "byłabym / bym była",
+        "second_person": "byłabyś / byś była",
+        "third_person": "byłaby / by była"
+      },
+      "neuter": {
+        "first_person": "byłobym / bym było",
+        "second_person": "byłobyś / byś było",
+        "third_person": "byłoby / by było"
+      }
+    },
+
+    "plural": {
+      "groups_that_include_men": {
+        "first_person": "bylibyśmy / byśmy byli",
+        "second_person": "bylibyście / byście byli",
+        "third_person": "byliby / by byli"
+      },
+      "all_others": {
+        "first_person": "byłybyśmy / byśmy były",
+        "second_person": "byłybyście / byście były",
+        "third_person": "byłyby / by były"
+      }
+    }
+  },
+
+  "impersonal": "byto by",
+
+  "present_adverbial_particle": "będąc",
+
+  "gerund": {
+
+    "singular": {
+      "nominative": "bycie",
+      "genitive": "bycia",
+      "dative": "byciu",
+      "accusative": "bycie",
+      "instrumental": "byciem",
+      "locative": "byciu",
+      "vocative": "bycie"
+    },
+
+    "plural": {
+      "nominative": "bycia",
+      "genitive": "być",
+      "dative": "byciom",
+      "accusative": "bycia",
+      "instrumental": "byciami",
+      "locative": "byciach",
+      "vocative": "bycia"
+    }
+  },
+
+  "present_active_adjectival_participle": {
+
+    "singular": {
+      "masculine_animate": {
+        "nominative": "będący",
+        "genitive": "będącego",
+        "dative": "będącemu",
+        "accusative": "będącego",
+        "instrumental": "będącym",
+        "locative": "będącym",
+        "vocative": "będący"
+      },
+      "masculine_inanimate": {
+        "nominative": "będący",
+        "genitive": "będącego",
+        "dative": "będącemu",
+        "accusative": "będący",
+        "instrumental": "będącym",
+        "locative": "będącym",
+        "vocative": "będący"
+      },
+      "feminine": {
+        "nominative": "będca",
+        "genitive": "będącej",
+        "dative": "będącej",
+        "accusative": "będącą",
+        "instrumental": "będącą",
+        "locative": "będącej",
+        "vocative": "będca"
+      },
+      "neuter": {
+        "nominative": "będące",
+        "genitive": "będącego",
+        "dative": "będącemu",
+        "accusative": "będące",
+        "instrumental": "będącym",
+        "locative": "będącym",
+        "vocative": "będące"
+      }
+    },
+
+    "plural": {
+      "groups_that_include_men": {
+        "nominative": "będący",
+        "genitive": "będących",
+        "dative": "będącym",
+        "accusative": "będących",
+        "instrumental": "będącymi",
+        "locative": "będących",
+        "vocative": "będący"
+      },
+      "all_others": {
+        "nominative": "będące",
+        "genitive": "będących",
+        "dative": "będącym",
+        "accusative": "będące",
+        "instrumental": "będącymi",
+        "locative": "będących",
+        "vocative": "będące"
+      }
+    }
+  }
+
+}
