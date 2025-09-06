@@ -17,12 +17,16 @@
   border: none;
   border-radius: 15px;
   font-size: 18px;
-  background-color: #9c8;
+  background-color: #9b8;
   text-align: center;
   padding: 5px 15px;
   cursor: pointer;
   overflow: hidden;
   transition: border-radius 0.1s;
+}
+
+.collapse_button:hover {
+  background-color: #ad9;
 }
 
 .arrow {
@@ -31,7 +35,7 @@
 }
 
 .collapsible_content {
-  background-color: #9c8;
+  background-color: #ad9;
   max-height: 0;
   border-radius: 3px;
   overflow: hidden;
@@ -39,9 +43,10 @@
 }
 
 .collapsible_section.open .collapse_button {
+  background-color: #ad9;
   border-radius: 15px 15px 0 0;
 }
 
 .collapsible_section.open .collapsible_content {
-  max-height: 500px; /* adjust if you have tall content */
+  max-height: 500px; /* adjust if content is taller*/
 }

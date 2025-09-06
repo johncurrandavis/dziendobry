@@ -1,7 +1,7 @@
 {
 	"geolocation": {
 		"data": {
-			"city": "Pudsey",
+			"city": "Bradford",
 			"country": {
 				"code": "GB",
 				"name": "United Kingdom"
@@ -11,10 +11,10 @@
 				"name": "England"
 			},
 			"timezone": "Europe/London",
-			"latitude": 53.7972,
-			"longitude": -1.668,
-			"postalCode": "LS28"
+			"latitude": 53.7981,
+			"longitude": -1.7623,
+			"postalCode": "BD3"
 		},
-		"timestamp": 1756644166503
+		"timestamp": 1757183453617
 	}
 }
